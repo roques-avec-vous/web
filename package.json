@@ -2,12 +2,23 @@
   "name": "web",
   "type": "module",
   "version": "0.0.1",
+  "license": "CECILL-2.1",
+  "description": "Site web officiel de roques-avec-vous.fr",
+  "repository": "git@github.com:roques-avec-vous/web.git",
+  "author": {
+    "name": "roques-avec-vous",
+    "web": "https://roques-avec-vous.fr"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
+  },
+  "engines": {
+    "node": "^16.19",
+    "pnpm": "^7.27.0"
   },
   "dependencies": {
     "@astrojs/mdx": "^0.17.2",
