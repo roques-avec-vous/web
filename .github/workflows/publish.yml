@@ -10,6 +10,8 @@ concurrency:
 
 jobs:
   publish-gh-pages:
+    permissions:
+      contents: write
     runs-on: ubuntu-22.04
     steps:
       - name: Check out repository
